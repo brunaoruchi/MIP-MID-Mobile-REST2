@@ -1,0 +1,37 @@
+{
+  "pesquisa": [
+    { "id": 1, "safra": "Safra 2016/2017", "ur": "Trevo", "cultivar": "P95R51", "bt": "Não", "dataDaSemeadura": "20-05-2016", "dataDaEmergencia": "24-11-2016", "dataDaColheita": "20-12-2016" },
+    { "id": 2, "safra": "Safra 2017/2018", "ur": "Carnieleto", "cultivar": "BMX RAIO Ipro", "bt": "Sim", "dataDaSemeadura": "15-05-2017", "dataDaEmergencia": "14-11-2017", "dataDaColheita": "22-12-2017" },
+    { "id": 3, "safra": "Safra 2018/2019", "ur": "Oldoni", "cultivar": "TMG 7262 RR1", "bt": "Não", "dataDaSemeadura": "22-05-2018", "dataDaEmergencia": "10-11-2018", "dataDaColheita": "21-12-2018" }
+  ],
+  "ur": [
+    { "id": 1, "identificacao": "Trevo", "localizacao": "1", "municipio": "Itapejara D'oeste", "produtor": "Gilson Dariva", "responsavelTecnico": "Lari Marioli" },
+    { "id": 2, "identificacao": "Carnieleto", "localizacao": "2", "municipio": "Pato Branco", "produtor": "Rafael Oldoni", "responsavelTecnico": "Vilmar Grando" },
+    { "id": 3, "identificacao": "Oldoni", "localizacao": "3", "municipio": "Mariópolis", "produtor": "Luiz Arcangelo", "responsavelTecnico": "Ivanderson Borelli" }
+  ],
+  "mipmid": [
+    { "id": 1, "safra": "Safra 2016/2017", "produtor": "Gilson Dariva", "identificacao": "Trevo", "cultivar": "P95R51", "responsavelTecnico": "Lari Marioli", "municipio": "Itapejara D'oeste"},
+    { "id": 2, "safra": "Safra 2017/2018", "produtor": "Rafael Oldoni", "identificacao": "Carnieleto", "cultivar": "BMX RAIO Ipro", "responsavelTecnico": "Vilmar Grando", "municipio": "Pato Branco"},
+    { "id": 3, "safra": "Safra 2018/2019", "produtor": "Luiz Arcangelo", "identificacao": "Oldoni", "cultivar": "TMG 7262 RR1", "responsavelTecnico": "Ivanderson Borelli", "municipio": "Mariópolis"}
+  ],
+  "operacaoRegistrada":  [
+    { "id": 1, "data": "01-09-2016", "custo": {
+      "precoScSoja": "70", "custoOperacao": "30"}, "operacao": {
+        "dataOperacao": "05-10-2016", "estadioCultura": "R4", "volumeCalda": "150.0"}, "produto": {
+          "categoria": "Herbicida", "alvoPrincipalouFuncao": "Folha Larga", "nomeProduto": "Zapp Qi", "precoProduto": "15"
+        }
+    },
+    { "id": 2, "data": "15-10-2016", "custo": {
+      "precoScSoja": "90", "custoOperacao": "35"}, "operacao": {
+        "dataOperacao": "05-11-2016", "estadioCultura": "R1", "volumeCalda": "190.0"}, "produto": {
+          "categoria": "Herbicida", "alvoPrincipalouFuncao": "Folha Estreita", "nomeProduto": "Round Up Transorb", "precoProduto": "18"
+        }
+    },
+    { "id": 3, "data": "10-11-2016", "custo": {
+      "precoScSoja": "60", "custoOperacao": "40"}, "operacao": {
+        "dataOperacao": "01-12-2016", "estadioCultura": "V4", "volumeCalda": "170.0"}, "produto": {
+          "categoria": "Inseticida", "alvoPrincipalouFuncao": "Lagartass Grupo Heliotiinae", "nomeProduto": "Triflubenzuron", "precoProduto": "20"
+        }
+    }
+  ]
+}
